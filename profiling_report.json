@@ -1,0 +1,51 @@
+{
+    "project_name": "AML Data Validation System",
+    "module": "Data Profiling",
+    "total_transactions": 6,
+    "unique_transaction_ids": 5,
+    "duplicate_transaction_ids": [
+        "T002"
+    ],
+    "missing_amount_transactions": [
+        "T003"
+    ],
+    "invalid_amount_transactions": [
+        "T004"
+    ],
+    "column_profiles": {
+        "transaction_id": {
+            "detected_type": "str",
+            "total_values": 6,
+            "missing_values": 0,
+            "valid_values": 6
+        },
+        "customer_id": {
+            "detected_type": "str",
+            "total_values": 6,
+            "missing_values": 0,
+            "valid_values": 6
+        },
+        "amount": {
+            "detected_type": "int",
+            "total_values": 6,
+            "missing_values": 1,
+            "valid_values": 5
+        },
+        "country": {
+            "detected_type": "str",
+            "total_values": 6,
+            "missing_values": 0,
+            "valid_values": 6
+        }
+    },
+    "unique_countries": [
+        "UK",
+        "USA"
+    ],
+    "data_quality": {
+        "valid_records": 4,
+        "total_records": 6,
+        "quality_score": 66.67,
+        "scoring_rule": "Positive, non-missing transaction amounts"
+    }
+}
