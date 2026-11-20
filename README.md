@@ -1,4 +1,4 @@
-AI-Driven Financial Crime Risk Intelligence & Transaction Monitoring System
+**AI-Driven Financial Crime Risk Intelligence & Transaction Monitoring System**
 
 1. Project Overview
 
